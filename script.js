@@ -28,7 +28,9 @@ document.getElementById("btn2").addEventListener("click", function (){
 //
 // Dica: use .style.display = "none"
 
-
+document.getElementById("btn3").addEventListener("click", function (){
+    document.getElementById("texto3").style.display = "none"
+})
 
 // ---------- Exercicio 4 ----------
 // Ao clicar no botao, adicione um novo <li> com o texto
