@@ -10,7 +10,9 @@
 //
 // Dica: use document.getElementById() e .textContent
 
-
+document.getElementById("btn1").addEventListener("click", function (){
+    document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
+})
 
 // ---------- Exercicio 2 ----------
 // Ao clicar no botao, mude a cor do texto #texto2 para azul
