@@ -38,7 +38,11 @@ document.getElementById("btn3").addEventListener("click", function (){
 //
 // Dica: use document.createElement() e .appendChild()
 
-
+document.getElementById("btn4").addEventListener("click", function () {
+    const item = document.createElement("li")
+    item.textContent = "Novo item"
+    document.getElementById("lista4").appendChild(item)
+})
 
 // ---------- Exercicio 5 ----------
 // Ao clicar no botao, mude a cor de fundo da #caixa5
