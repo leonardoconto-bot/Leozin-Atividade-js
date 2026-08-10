@@ -50,7 +50,9 @@ document.getElementById("btn4").addEventListener("click", function () {
 //
 // Dica: use .style.backgroundColor = "yellow"
 
-
+document.getElementById("btn5").addEventListener("click", function () {
+    document.getElementById("caixa5").style.backgroundColor = "purple"
+})
 
 // ---------- Exercicio 6 ----------
 // Ao clicar no botao, aumente o numero do #contador6 em 1
