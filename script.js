@@ -79,7 +79,9 @@ document.getElementById("btn7").addEventListener("click", function () {
 //
 // Dica: use .classList.add("destaque")
 
-
+document.getElementById("btn8").addEventListener("click", function () {
+    document.getElementById("texto8").classList.add("destaque")
+})
 
 // ---------- Exercicio 9 ----------
 // Ao clicar no botao, remova o ultimo <li> da #lista9
