@@ -88,7 +88,9 @@ document.getElementById("btn8").addEventListener("click", function () {
 //
 // Dica: use .lastElementChild e .removeChild()
 
-
+document.getElementById("btn9").addEventListener("click", function () {
+    document.getElementById("lista9").removeChild(document.getElementById("lista9").lastElementChild)
+})
 
 // ---------- Exercicio 10 ----------
 // Ao clicar no botao, troque o src da #imagem10 para
